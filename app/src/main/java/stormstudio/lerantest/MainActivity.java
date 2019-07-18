@@ -9,16 +9,16 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView iv;
+    Button btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        iv  = findViewById(R.id.imageView_W);
+        btn = findViewById(R.id.button);
 
 
-        iv.setImageResource(R.drawable.untitled);
+
 
         }
 
